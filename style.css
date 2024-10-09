@@ -1,0 +1,138 @@
+body {
+    background-color: #f1f9ff;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+body h1::after {
+    content: '🎧';
+}
+
+body h1::before {
+    content: '🎧';
+}
+
+h2 {
+    text-align: left;
+    margin-top: 15px;
+}
+
+#sobre-mi h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+#inicio h2::after {
+    content: '🥶';
+}
+#inicio h2::before {
+    content: '🥶';
+}
+
+#inicio h2{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+#sobre-mi h2::after {
+    content: '🎇';
+}
+
+#sobre-mi h2::before {
+    content: '🎇';
+}
+
+form {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fffff5;
+    border: 4px solid #181250;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #181250;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #3a3a8e;
+}
+
+#blog h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+#blog h3::after {
+    content: '✨';
+}
+
+#blog h3::before {
+    content: '✨';
+}
+
+#blog ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 3px;
+    margin: 0;
+}
+
+#blog p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    text-align: left;
+    margin: 20px;
+}
+
+#blog li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    align-items: center;
+    font-style: italic;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    background-color: #fdf8ff;
+    border: 0.2px solid #181250;
+    border-width: thick;
+    border-radius: 3px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#blog li:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.05);
+}
